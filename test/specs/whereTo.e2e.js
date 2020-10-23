@@ -6,7 +6,7 @@ const CheckoutPage = require('../pageobjects/checkout.page');
 describe('My WhereTo application', () => {
 
     beforeEach(() => {
-        browser.setWindowSize(1920,1280);
+        browser.setWindowSize(1920,1080);
     })
     it('should login with valid credentials', () => {
         browser.url('http://qa-48.w2.ae/');

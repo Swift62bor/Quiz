@@ -8,7 +8,7 @@ module.exports = class Page {
     * @param path path of the page
     */
     open (path) {
-        browser.setWindowSize(1920,1280);
+        browser.setWindowSize(1920,1080);
         return browser.url(path)
     }
 }
