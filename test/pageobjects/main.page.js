@@ -105,11 +105,8 @@ class MainPage extends Page {
 
     setNextMonthDate () { 
         this.whenInput.click();
-        browser.pause(4000);
         this.nextMonthArrowSelector.click();
-        browser.pause(4000);
         this.tenthDaySelector.click();
-        browser.pause(4000);
     }
 
     makeSearch () {
